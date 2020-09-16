@@ -4,7 +4,7 @@
 
 ## code
 ```
-FROM cypress/browsers:node11.13.0-chrome73
+FROM cypress/browsers:node14.7.0-chrome84
 
 RUN npm install --unsafe-perm -g cypress
 RUN cypress version
